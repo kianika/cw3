@@ -52,3 +52,20 @@ console.log(itemofindex);
 })
 })
  */
+
+//ex4
+
+/* data = [
+    ["The","red", "horse"],
+    ["Plane","over","the","ocean"],
+    ["Chocolate","ice","cream","is","awesome"],
+    ["this","is","a","long","sentence"]
+    ]
+    
+  
+  const dateItemToOneString = data.map(function(item){
+    console.log(item.reduce(function(acc ,item){
+    return acc + item + " ";
+    },""));
+    });
+ */
